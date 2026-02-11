@@ -6,15 +6,43 @@
   /* text-align: center; */
   flex-direction: column;
 
+  position: relative;
+
   /* position: absolute */
 }
 
 body {
-  margin: auto;
+  margin: 0px;
   border: 0px;
 }
 
 #prompt{
     font-size: 28px;
     font-family: Arial Narrow, Arial, sans-serif; ;
+}
+
+#quote{
+    max-width: 70vw;;
+  text-wrap: balance;
+  text-align: center;
+  font-size: 24px;
+
+      font-family: Arial Narrow, Arial, sans-serif; ;
+
+
+}
+
+#info{
+    position: absolute; 
+    top : 1vh;
+    margin: 2vw;
+}
+
+.hyperlinks{
+      font-family: Arial Narrow, Arial, sans-serif; ;
+    margin: 2px;
+    font-size: 16px;
+    max-width: 15vw;
+    text-align: left;
+
 }
