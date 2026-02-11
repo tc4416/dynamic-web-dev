@@ -1,0 +1,28 @@
+#important{
+    color: #e5dada;
+    background-color: blue;
+}
+
+#blue1{
+    color: red
+}
+
+
+.blue{
+        background-color: blue;
+
+}
+
+.show{
+    display:block;
+}
+
+.hide{
+    display:none;
+}
+
+#img{
+
+    width: 400px;
+
+}
