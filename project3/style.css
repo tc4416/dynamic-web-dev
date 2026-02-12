@@ -17,7 +17,6 @@ body {
   border: 0px;
 }
 #background {
-  display: flex;
 
   position: absolute;
   display: flex;
@@ -58,6 +57,7 @@ body {
   position: absolute;
   top: 1vh;
   margin: 2vw;
+  max-height: 100bh;
 }
 
 .hyperlinks {
