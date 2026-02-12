@@ -33,6 +33,7 @@ document.addEventListener("click", () => {
   fetchingQuote(urlQuote);
   //   console.log(q);
   htmlQuote.innerHTML = q;
+  //s
 });
 
 //checking space bar

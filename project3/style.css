@@ -25,9 +25,8 @@ body {
   width: 100vw;
   z-index: 1;
   justify-content: center;
-    align-items: center;
-    opacity: 0.6;
-
+  align-items: center;
+  opacity: 0.6;
 }
 
 #prompt {
@@ -36,6 +35,8 @@ body {
     Arial Narrow,
     Arial,
     sans-serif;
+      z-index: 2;
+
 }
 
 #quote {
@@ -43,13 +44,14 @@ body {
   text-wrap: balance;
   text-align: center;
   font-size: 24px;
-    font-style: italic;
-
+  font-style: italic;
 
   font-family:
     Arial Narrow,
     Arial,
     sans-serif;
+      z-index: 2;
+
 }
 
 #info {
@@ -66,5 +68,5 @@ body {
   margin: 2px;
   font-size: 16px;
   max-width: 15vw;
-  text-align: left;
+  text-align: left; 
 }
