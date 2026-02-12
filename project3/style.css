@@ -7,6 +7,7 @@
   flex-direction: column;
 
   position: relative;
+  z-index: 2;
 
   /* position: absolute */
 }
@@ -15,34 +16,55 @@ body {
   margin: 0px;
   border: 0px;
 }
+#background {
+  display: flex;
 
-#prompt{
-    font-size: 28px;
-    font-family: Arial Narrow, Arial, sans-serif; ;
+  position: absolute;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+
 }
 
-#quote{
-    max-width: 70vw;;
+#prompt {
+  font-size: 28px;
+  font-family:
+    Arial Narrow,
+    Arial,
+    sans-serif;
+}
+
+#quote {
+  max-width: 70vw;
   text-wrap: balance;
   text-align: center;
   font-size: 24px;
+    font-style: italic;
 
-      font-family: Arial Narrow, Arial, sans-serif; ;
 
-
+  font-family:
+    Arial Narrow,
+    Arial,
+    sans-serif;
 }
 
-#info{
-    position: absolute; 
-    top : 1vh;
-    margin: 2vw;
+#info {
+  position: absolute;
+  top: 1vh;
+  margin: 2vw;
 }
 
-.hyperlinks{
-      font-family: Arial Narrow, Arial, sans-serif; ;
-    margin: 2px;
-    font-size: 16px;
-    max-width: 15vw;
-    text-align: left;
-
+.hyperlinks {
+  font-family:
+    Arial Narrow,
+    Arial,
+    sans-serif;
+  margin: 2px;
+  font-size: 16px;
+  max-width: 15vw;
+  text-align: left;
 }
