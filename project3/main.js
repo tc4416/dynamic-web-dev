@@ -4,7 +4,7 @@ let htmlQuote;
 
 window.onload = async () => {
   // checking if the jaba script is succesfully linked and windows loading
-  alert("ye");
+  alert("ye test test javascript ye");
 
   //changing quote when space pressed / mouse click
   //event listener
