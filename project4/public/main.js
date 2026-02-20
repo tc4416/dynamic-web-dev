@@ -1,6 +1,6 @@
 let from;
 let to;
-let paragraph
+let paragraph;
 
 window.onload = async () => {
   from = " ";
@@ -15,7 +15,7 @@ window.onload = async () => {
   from = names.input[0].from;
   to = names.input[0].to;
 
-paragraph = document.getElementById("text");
+  paragraph = document.getElementById("text");
 
   console.log("helllo??");
   console.log(names);

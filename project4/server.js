@@ -6,16 +6,14 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/send-love", (request, response) => {
   response.sendFile("send-love.html", { root: "./public" });
-
 });
 
 //array for storing data
 let receivedData = [];
 
 app.post("/submit", (request, response) => {
-
   console.log(request.body);
-  console.log(request.body.fromName)
+  console.log(request.body.fromName);
 
   receivedData = [];
   // We add all of our data to an array, so we can also display it through the /messages endpoint.
@@ -23,13 +21,11 @@ app.post("/submit", (request, response) => {
     from: request.body.fromName,
     to: request.body.toName,
   });
-  
+
   // We add a personalized follow-up message.
- // response.send("Thank you, " + request.body.fromName);
-    response.sendFile("letter.html", { root: "./public" });
-
+  // response.send("Thank you, " + request.body.fromName);
+  response.sendFile("letter.html", { root: "./public" });
 });
-
 
 //sending data from client to server
 app.get("/input", (request, response) => {
@@ -41,7 +37,6 @@ app.get("/input", (request, response) => {
     response.json({ input: receivedData });
   }
 });
-
 
 app.listen(8000, () => {
   console.log("server is running");

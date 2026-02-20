@@ -24,7 +24,7 @@ body {
   top: 30vh;
   /* justify-content: center; */
   /* align-items: center; */
-  z-index:1
+  z-index: 1;
 }
 
 .input-box {
@@ -32,7 +32,7 @@ body {
     Arial Narrow,
     Arial,
     sans-serif;
-    z-index: 3;
+  z-index: 3;
 }
 
 p.with-breaks {
@@ -52,10 +52,10 @@ p.with-breaks {
   top: 45vh;
 }
 
-#someOne{
-    display:flex;
-    width:25vw;
-    position: absolute;
-    bottom: 15vh;
-    right: 10vw;
+#someOne {
+  display: flex;
+  width: 25vw;
+  position: absolute;
+  bottom: 15vh;
+  right: 10vw;
 }
