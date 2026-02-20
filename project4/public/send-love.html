@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="main.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Google+Sans"
+    />
+    <link rel="icon" type="image/png" href="send-love.png" />
+  </head>
+
+  <body>
+    <div id="main-body">
+      <img id="background" src="background.png" alt="bg" />
+      <div id="form">
+        <form class="send-love-form" method="POST" action="/submit">
+          <label class="input-box" for="toName"><strong>To : </strong></label>
+          <input type="text" name="toName" value=" " size="10 vw" /> <br />
+          <br />
+
+          <label class="input-box" for="fromName"
+            ><strong>From : </strong></label
+          >
+          <input type="text" name="fromName" value=" " size="10 vw" />
+          <br /><br />
+
+          <input type="submit" name="submitButton" value="send :-&#41" />
+          <br />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

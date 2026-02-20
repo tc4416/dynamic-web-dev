@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+#main-body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#form {
+  text-align: center;
+  z-index: 4;
+}
+
+#background {
+  position: absolute;
+  display: flex;
+  /* height: 100vh; */
+  width: 40vw;
+  top: 30vh;
+  /* justify-content: center; */
+  /* align-items: center; */
+  z-index:1
+}
+
+.input-box {
+  font-family:
+    Arial Narrow,
+    Arial,
+    sans-serif;
+    z-index: 3;
+}
+
+p.with-breaks {
+  white-space: pre-wrap;
+  color: rgb(23, 23, 23);
+  /* font-family:
+    Arial Narrow,
+    Arial,
+    sans-serif; */
+  font-family: "Times New Roman", serif;
+}
+
+#letter {
+  display: flex;
+  position: absolute;
+  width: 30vw;
+  top: 45vh;
+}
+
+#someOne{
+    display:flex;
+    width:25vw;
+    position: absolute;
+    bottom: 15vh;
+    right: 10vw;
+}
