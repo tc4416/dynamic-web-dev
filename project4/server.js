@@ -17,11 +17,13 @@ app.post("/submit", (request, response) => {
   console.log(request.body);
   console.log(request.body.fromName)
 
+  receivedData = [];
   // We add all of our data to an array, so we can also display it through the /messages endpoint.
   receivedData.push({
     from: request.body.fromName,
     to: request.body.toName,
   });
+  
   // We add a personalized follow-up message.
  // response.send("Thank you, " + request.body.fromName);
     response.sendFile("letter.html", { root: "./public" });
