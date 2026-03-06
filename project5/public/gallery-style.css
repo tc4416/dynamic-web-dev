@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+    align-items: center;
+  left: 5vw;
+    justify-content: center; 
+
+
+  gap: 20px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.poem-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 10vw;
+  gap: 10px;
+  width: 90vw; 
+}
+
+.poem-block img {
+  width: 100%;
+
+}
+
+.poem-block span {
+  color: tomato;
+  font-size: 15px;
+}
